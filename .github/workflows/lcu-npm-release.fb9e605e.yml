@@ -14,7 +14,7 @@ env:
   DeployCommand: npm run deploy
   Organization: JackPenhale
   Repository: ecomTutorial
-  Output: 
+  Output: _site
 
 jobs:
   build:
