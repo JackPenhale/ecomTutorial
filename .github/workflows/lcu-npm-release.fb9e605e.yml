@@ -13,7 +13,7 @@ env:
   InstallCommand: npm ci
   DeployCommand: npm run deploy
   Organization: ecomtutorial
-  Repository: ecomsite
+  Repository: ecomTutorial
   Output: _site
 
 jobs:
