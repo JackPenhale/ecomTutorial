@@ -12,8 +12,8 @@ env:
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm ci
   DeployCommand: npm run deploy
-  Organization: JackPenhale
-  Repository: ecomTutorial
+  Organization: ecomtutorial
+  Repository: ecomsite
   Output: _site
 
 jobs:
