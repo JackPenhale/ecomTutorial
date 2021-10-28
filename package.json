@@ -1,27 +1,26 @@
 {
-    "name": "@ecomtutorial/ecomsite",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.html",
-    "scripts": {
-      "build": "eleventy",
-      "deploy": "npm version patch && npm publish --access public",
-      "start": "eleventy --serve",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fathym-it/forestry-11ty-jamcart.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/fathym-it/forestry-11ty-jamcart/issues"
-    },
-    "homepage": "https://github.com/fathym-it/forestry-11ty-jamcart#readme",
-    "devDependencies": {
-      "@11ty/eleventy": "^0.12.1"
-    }
+  "name": "@ecomtutorial/ecomsite",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "deploy": "npm version patch && npm run build && npm publish ./_site --access public",
+    "start": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackPenhale/ecomTutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackPenhale/ecomTutorial/issues"
+  },
+  "homepage": "https://github.com/JackPenhale/ecomTutorial#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
   }
-  
+}
