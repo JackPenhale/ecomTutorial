@@ -2,17 +2,17 @@ name: NPM - Release
 
 on:
   push:
-    branches: [master]
+    branches: []
   pull_request:
-    branches: [master]
+    branches: []
 
 env:
-  Branches: master
+  Branches: 
   MainBranch: master
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm ci
   DeployCommand: npm run deploy
-  Organization: ecomtutorial
+  Organization: JackPenhale
   Repository: ecomTutorial
   Output: _site
 
@@ -79,7 +79,7 @@ jobs:
       # run npm commands
       - uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: 14
           registry-url: ${{ env.NPMRegistry }}
 
       # install npm dependencies from package-lock.json
